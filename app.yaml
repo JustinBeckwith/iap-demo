@@ -4,5 +4,8 @@ api_version: 1
 service: iap-demo
 
 handlers:
+- url: /google62083903be8c40f6\.html
+  static_files: google62083903be8c40f6.html
+  upload: google62083903be8c40f6\.html
 - url: .*
   script: main.app
